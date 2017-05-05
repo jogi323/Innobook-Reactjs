@@ -1,0 +1,76 @@
+/*home Styles*/
+img#logo {
+    width: 15%;
+}
+.logoimg { width: 100%;}
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+img.avatar {
+    width: 40%;
+    border-radius: 50%;
+}
+p#signup {
+    margin-top: 18px;
+}
+/*dashboard styles*/
+.dashboard{
+    background-image: url('http://localhost:3000/images/1.jpg');
+    height: 100vh;
+    width: 100%;
+}
+/*Input validations styles*/
+input.active:valid {
+  box-shadow: 0 0 5px 1px green;
+}
+
+input.active:invalid {
+  box-shadow: 0 0 5px 1px red;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+
+
+
+/* header css */
+/*.searchbox input {    
+     width: 250px;
+    margin-top: 15px;
+    padding: 7px 15px;}*/
+.bootstrap-typeahead-menu {min-width: 100%; border: 1px solid #adadad}
+.bootstrap-typeahead-input input { border: 1px solid #333;}
+.header-main { background: #1f9dc3;}
+.logo-react { font-size: 40px; line-height: 36px; color: #fff !important;}
+.nav-menu { background-color: transparent !important; border-color: transparent !important;}
+.typehead-search { margin-top: 20px; margin-left: 25px;}
+.typehead-search input, .typehead-search li { width: 100%;}
+.logoutlink li { 
+    margin-top: 8px;;}
+.logoutlink li a {     font-size: 18px;
+    color: #eaeaea !important;}
+.logoutlink li a:hover { color: #fff !Important;}
+.logoutlink li .fa-bell-o {     margin-top: 18px;
+    font-size: 22px;
+    color: #fff; cursor: pointer;}
+.logoutlink { margin-left: 50px;}
+.dashboard .col-md-12 { padding: 0px;}
+
+
+/*ul.nav.navbar-nav.navbar-right.logoutlink.col-md-2 {
+    margin-right: -120px;
+}*/
+ul.nav.navbar-nav.col-md-6.typehead-search{
+    /*padding-top: 1%;*/
+}
+ul.nav.navbar-nav.navbar-right.logoutlink.col-md-2 li{
+    padding-top: 2%;
+}
+ul.nav.navbar-nav.navbar-right.logoutlink.col-md-2 li:last-child {
+    padding-top: 4%;
+}
